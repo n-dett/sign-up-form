@@ -36,6 +36,10 @@ body {
 
 }
 
+h1 {
+    font-size: 50px;
+}
+
 
 form {
     padding-left: 5%;
@@ -81,8 +85,9 @@ form {
 #byline {
     font-size: 14px;
     font-weight: 300;
-    margin-top: 80%;
+    margin-top: 450px;
     text-align: center;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 a {
@@ -97,7 +102,7 @@ h2 {
 
 button {
     margin: 5% 5% 2% 5%;
-    background-color: rgb(91, 113, 70);
+    background-color: #596D48;
     color: #f2f2f2;
     border: none;
     padding: 10px;
@@ -108,7 +113,7 @@ button {
 }
 
 #log-in {
-    color: rgb(91, 113, 70);
+    color: #596D48;
     font-weight: 700;
 }
 
@@ -116,3 +121,13 @@ p {
     font-size: 14px;
     margin-left: 5%;
 }
+
+#user_password:invalid, #user_password_confirm:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border: solid .25px rgb(70, 111, 232);
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.101);
+}
+
